@@ -35,6 +35,10 @@ class ViewController: UITableViewController {
         cell.textLabel?.text = tasks[indexPath.row]["objective"] as? String
         return cell
     }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let re = segue.destination as! AddToListViewController
+        re.delegate = self
+    }
     func myListModel(){
         ListModel.getAllTasks() {
             data, response, error in

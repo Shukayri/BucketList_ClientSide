@@ -14,6 +14,7 @@
 		8425BBBB277A502C00BF94FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8425BBBA277A502C00BF94FE /* Assets.xcassets */; };
 		8425BBBE277A502C00BF94FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8425BBBC277A502C00BF94FE /* LaunchScreen.storyboard */; };
 		8425BBC6277A50C900BF94FE /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425BBC5277A50C900BF94FE /* ListModel.swift */; };
+		8425BBC8277A541200BF94FE /* AddToListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425BBC7277A541200BF94FE /* AddToListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8425BBBD277A502C00BF94FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8425BBBF277A502C00BF94FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8425BBC5277A50C900BF94FE /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		8425BBC7277A541200BF94FE /* AddToListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				8425BBBC277A502C00BF94FE /* LaunchScreen.storyboard */,
 				8425BBBF277A502C00BF94FE /* Info.plist */,
 				8425BBC5277A50C900BF94FE /* ListModel.swift */,
+				8425BBC7277A541200BF94FE /* AddToListViewController.swift */,
 			);
 			path = Bucket_List_ClientSide;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8425BBB6277A502B00BF94FE /* ViewController.swift in Sources */,
+				8425BBC8277A541200BF94FE /* AddToListViewController.swift in Sources */,
 				8425BBB2277A502B00BF94FE /* AppDelegate.swift in Sources */,
 				8425BBB4277A502B00BF94FE /* SceneDelegate.swift in Sources */,
 				8425BBC6277A50C900BF94FE /* ListModel.swift in Sources */,
